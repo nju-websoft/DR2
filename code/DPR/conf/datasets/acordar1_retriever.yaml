@@ -1,0 +1,21 @@
+# @package _group_
+
+query_acordar1_split0:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /data/acordar1_query/query_split0.tsv
+
+query_acordar1_split1:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /data/acordar1_query/query_split1.tsv
+
+query_acordar1_split2:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /data/acordar1_query/query_split2.tsv
+
+query_acordar1_split3:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /data/acordar1_query/query_split3.tsv
+
+query_acordar1_split4:
+  _target_: dpr.data.retriever_data.CsvQASrc
+  file: /data/acordar1_query/query_split4.tsv

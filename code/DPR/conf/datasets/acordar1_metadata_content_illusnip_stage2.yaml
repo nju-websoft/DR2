@@ -1,0 +1,24 @@
+# @package _group_
+
+ds_acordar1_split_0_metadata_content_illusnip:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /acordar1_qrel/ds_metadata_content_illusnip_split_0.json
+
+ds_acordar1_split_1_metadata_content_illusnip:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /acordar1_qrel/ds_metadata_content_illusnip_split_1.json
+
+
+ds_acordar1_split_2_metadata_content_illusnip:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /acordar1_qrel/ds_metadata_content_illusnip_split_2.json
+
+
+ds_acordar1_split_3_metadata_content_illusnip:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /acordar1_qrel/ds_metadata_content_illusnip_split_3.json
+
+
+ds_acordar1_split_4_metadata_content_illusnip:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /acordar1_qrel/ds_metadata_content_illusnip_split_4.json

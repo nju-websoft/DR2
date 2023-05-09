@@ -1,0 +1,9 @@
+# @package _group_
+
+ds_train_acordar1_fold_0_unsupervised_data:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /data/0stage/unsupervised_train.json
+
+ds_dev_acordar1_fold_0_unsupervised_data:
+  _target_: dpr.data.biencoder_data.JsonQADataset
+  file: /data/0stage/unsupervised_dev.json

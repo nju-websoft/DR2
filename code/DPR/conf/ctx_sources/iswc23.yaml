@@ -1,0 +1,16 @@
+# @package _group_
+
+dataset_ctx_content_illusnip:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: content_illusnip_BERT.tsv
+  id_prefix: 'content_illusnip:'
+
+dataset_ctx_content_pcsg:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: ctx_sources/content_pcsg_BERT.tsv
+  id_prefix: 'content_pcsg:'
+
+dataset_ctx_metadata:
+  _target_: dpr.data.retriever_data.CsvCtxSrc
+  file: metadata_BERT.tsv
+  id_prefix: 'metadata:'
