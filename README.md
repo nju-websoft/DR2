@@ -78,7 +78,7 @@ We followed 5-fold cross-validation in [ACORDAR](https://github.com/nju-websoft/
 
 
 ## Evaluation
-All the results for re-ranking experiments are at `./outputs/re-ranking_results`. The result files are named as `all_{sampler}_{retriever}_{re-ranker}_{tuning_stage}_reranking.tsv` and in TREC format. The numbers of `{tuning_stage}` indicate different training strategies, with 0 indicating coarse-tuning stage based on distant supervision, 1 indicating coarse-tuning stage based on self-training, and 2 indicating fine-tuning stage. For example, `all_illusnip_BM25_ColBERT_012stage_reranking.tsv` means the re-ranking results of ColBERT trained by all three stages with Illusnip sampler and BM25 retriever.
+All the results for re-ranking experiments are at `./outputs`. The result files are named as `all_{sampler}_{retriever}_{re-ranker}_{tuning_stage}_reranking.tsv` and in TREC format. The numbers of `{tuning_stage}` indicate different training strategies, with 0 indicating coarse-tuning stage based on distant supervision, 1 indicating coarse-tuning stage based on self-training, and 2 indicating fine-tuning stage. For example, `all_illusnip_BM25_ColBERT_012stage_reranking.tsv` means the re-ranking results of ColBERT trained by all three stages with Illusnip sampler and BM25 retriever.
 
 For reproducing the result data for Table 2, Table 3 and Table 4 of the paper, the following script can be used to calculate the experimental metrics.
 
