@@ -1,5 +1,5 @@
-# RDF-Dense-Re-Ranking
-This is the source code of the paper "Dense Re-Ranking with Weak Supervision for RDF Dataset Search".
+# DR2
+This is the source code and data with the paper "Dense Re-Ranking with Weak Supervision for RDF Dataset Search".
 
 ## Requirements
 
