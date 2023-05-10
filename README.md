@@ -14,7 +14,7 @@ This code is based on Python 3.7+ and Pytorch 1.9+ and uses the [Hugging Face Tr
 
 ## Compact Document Representation
 
-We applied two RDF data sampling methods [Illusnip](https://github.com/nju-websoft/BANDAR/blob/master/code/src/snippetAlgorithm/IlluSnip.java) and [PCSG](https://github.com/nju-websoft/PCSG) to extract representative RDF triples of datasets and concatenated the results into pseudo documents. You can run codes from the origin repos for triple extraction and run codes in `./code/compact-document-representation` for pseudo document creation.
+We applied two RDF snippet generation methods [Illusnip](https://github.com/nju-websoft/BANDAR/blob/master/code/src/snippetAlgorithm/IlluSnip.java) and [PCSG](https://github.com/nju-websoft/PCSG) to extract representative RDF triples of datasets and concatenated the results into pseudo documents. You can run codes from the origin repos for triple extraction and run codes in `./code/compact-document-representation` for pseudo document creation.
 
 ## Dense Re-Ranking
 
@@ -32,6 +32,7 @@ The training data used for coarse-tuning based on distant supervision is from 70
             "dataset_id": "xxx",
             "title": "xxx",
             "description": "xxx",
+            "autohr": "xxx",
             "tags": "[\"xxx\"]",
             "url": "https://xxx.xxx"
         },
