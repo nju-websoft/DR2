@@ -32,7 +32,7 @@ The training data used for coarse-tuning based on distant supervision is from 70
             "dataset_id": "xxx",
             "title": "xxx",
             "description": "xxx",
-            "autohr": "xxx",
+            "author": "xxx",
             "tags": "[\"xxx\"]",
             "url": "https://xxx.xxx"
         },
