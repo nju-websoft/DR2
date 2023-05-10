@@ -78,7 +78,7 @@ We followed 5-fold cross-validation in [ACORDAR](https://github.com/nju-websoft/
 
 
 ## Evaluation
-All the results for re-ranking experiments are at `./outputs`. The result files are named as `all_{sampler}_{retriever}_{re-ranker}_{tuning_stage}_reranking.tsv` and in TREC format. The numbers of `{tuning_stage}` indicate different training strategies, with 0 indicating coarse-tuning stage based on distant supervision, 1 indicating coarse-tuning stage based on self-training, and 2 indicating fine-tuning stage. For example, `all_illusnip_BM25_ColBERT_012stage_reranking.tsv` means the re-ranking results of ColBERT trained by all three stages with Illusnip sampler and BM25 retriever.
+All the results for re-ranking experiments are at `./outputs`. The result files are named as `all_{snippet_generation_method}_{normal_retrieval_model}_{dense_model}_{tuning}_reranking.tsv` and in TREC format. The numbers of `{tuning}` indicate different training strategies, with 0 indicating coarse-tuning based on distant supervision, 1 indicating coarse-tuning based on self-training, and 2 indicating normal fine-tuning. For example, `all_illusnip_BM25_ColBERT_012stage_reranking.tsv` means the re-ranking results of ColBERT trained by normal fine-tuning adding both coarse-tuning based on distant supervision and on self-training with Illusnip as snippet generation method and BM25 as normal retrieval model.
 ```
 105	Q0	70723	1	28.631393432617188	ColBERT-BM25
 105	Q0	11080	2	28.019168853759766	ColBERT-BM25
