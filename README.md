@@ -86,7 +86,7 @@ All the results for re-ranking experiments are at `./outputs`. The result files 
 ...
 ```
 
-For reproducing the result data for Table 2, Table 3 and Table 4 of the paper, the following script can be used to calculate the experimental metrics.
+For reproducing the result data for Table 1, Table 2, and Table 3 of the paper, the following script can be used to calculate the experimental metrics.
 
 ```
 python .\scripts\eval.py \
