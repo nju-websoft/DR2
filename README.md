@@ -23,7 +23,7 @@ For the dense re-ranking models, we reused the open source code of [ColBERT](htt
 ## Coarse Tuning with Weak Supervision
 
 ### Coarse-Tuning Based on Distant Supervision
-The training data used for coarse-tuning based on distant supervision is from 700K+ dataset metadata crawled from open portals. We used the title in each metadata as keyword query and masked this field in the metadata document. The keyword queries with corresponding dataset id are randomly split into 90% for training and 10% for validataion and are formatted as csv files at `./data/distant-supervision/{train/valid}.tsv`.
+The training data used for coarse-tuning based on distant supervision is from 700K+ dataset metadata crawled from open data portals. We used the title in each metadata as keyword query and masked this field in the metadata document. The keyword queries with corresponding dataset id are randomly split into 90% for training and 10% for validataion and are formatted as csv files at `./data/distant-supervision/{train/valid}.tsv`.
 ```
 dataset_id1,query1
 dataset_id2,query2
@@ -51,7 +51,7 @@ This set of labeled data is used for coarse-tuning based on distant supervision.
 
 ### Coarse-Tuning Based on Self-Training
 
-Source code for the document-to-query generator is at `./code/document-to-query generator/src`.
+Source code for the document-to-query generator is at `./code/document-to-query-generator/src`.
 
 You can use following scripts at `./code/document-to-query-generator/scripts` for trainig, testing and predictoin. 
 ```
