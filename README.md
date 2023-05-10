@@ -84,7 +84,7 @@ For reproducing the result data for Table 2, Table 3 and Table 4 of the paper, t
 
 ```
 python .\scripts\eval.py \
-    --test_file=outputs\re-ranknig_results\all_illusnip_BM25_ColBERT_02stage_reranking.tsv
+    --test_file=outputs\all_illusnip_BM25_ColBERT_012stage_reranking.tsv
 ```
 ## License
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
