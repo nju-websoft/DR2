@@ -95,3 +95,24 @@ python ./code/evaluation/eval.py \
 This project is licensed under the Apache License 2.0 - see the LICENSE file for details.
 
 ## Citation
+```
+@inproceedings{DR2,
+  author       = {Qiaosheng Chen and
+                  Zixian Huang and
+                  Zhiyang Zhang and
+                  Weiqing Luo and
+                  Tengteng Lin and
+                  Qing Shi and
+                  Gong Cheng},
+  title        = {Dense Re-Ranking with Weak Supervision for {RDF} Dataset Search},
+  booktitle    = {The Semantic Web - {ISWC} 2023 - 22nd International Semantic Web Conference,
+                  Athens, Greece, November 6-10, 2023, Proceedings, Part {I}},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14265},
+  pages        = {23--40},
+  publisher    = {Springer},
+  year         = {2023},
+  url          = {https://doi.org/10.1007/978-3-031-47240-4\_2},
+  doi          = {10.1007/978-3-031-47240-4\_2}
+}
+```
