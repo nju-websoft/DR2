@@ -1,5 +1,5 @@
 # DR2
-This is the source code and data with the paper "Dense Re-Ranking with Weak Supervision for RDF Dataset Search".
+This is the source code and data with the paper "[Dense Re-Ranking with Weak Supervision for RDF Dataset Search](https://doi.org/10.1007/978-3-031-47240-4_2)" ISWC 2023.
 
 ## Requirements
 
